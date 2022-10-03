@@ -6,85 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Productos</title>
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <img src="../assets/Logo.webp" alt="" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="./ubicacion.html">Ubicación</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="navbar navbar-expand-lg estilonav">
+        <nav class="container-fluid">
+            <h1><a class="navbar-brand" href="./index.html"><img src="../assets/Logo.webp" alt="" class="logo"></a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                    <a class="nav-link" href="./ubicacion.html">Ubicación</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+            </div>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <section>
-            <h1 class="titulo">Nuestras cervezas</h1>
-            <div class="contenedor">
 
-                <div class="tarjeta">
-                    <img src="../assets/golden.jpg" alt="">
-                    <h4>Golden</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore aliquam, sapiente quam voluptas
-                        vitae
-                        reprehenderit dolore excepturi labore quas, rerum velit asperiores suscipit minus ullam dolor
-                        placeat
-                        quibusdam ea. Minus.</p>
+
+
+
+
+
+
+    <div class="container-fluid pie-de-pagina">
+        <footer>
+            <div class="row">
+                <div class="col-12 col-xs-6 text-center">
+                    <h3>Datos de contacto</h3>
+                    <ul class="list-group">
+                        <li>Dirección: Av. del Libertador 3949, Hipódromo de Palermo, Palermo.</li>
+                        <li>Teléfono: 2473-15 461396</li>
+                        <li>Redes: Instagram / Twitter</li>
+
+                    </ul>
                 </div>
 
-                <div class="tarjeta">
-                    <img src="../assets/stout.jpg" alt="">
-                    <h4>Stout</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore aliquam, sapiente quam voluptas
-                        vitae
-                        reprehenderit dolore excepturi labore quas, rerum velit asperiores suscipit minus ullam dolor
-                        placeat
-                        quibusdam ea. Minus.</p>
-                </div>
-
-                <div class="tarjeta">
-                    <img src="../assets/wee-heavy.webp" alt="">
-                    <h4>Wee Heavy</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore aliquam, sapiente quam voluptas
-                        vitae
-                        reprehenderit dolore excepturi labore quas, rerum velit asperiores suscipit minus ullam dolor
-                        placeat
-                        quibusdam ea. Minus.</p>
-                </div>
-
-        </section>
-    </main>
-
-
-
-    <footer>
-        <div class="pie-de-pagina">
-            <div class="tel">
-                <h4>Tel: 2473-15 461396</h4>
             </div>
-            <div class="ubicacion">
-                <h4>Av. del Libertador 3949, Hipódromo de Palermo, Palermo.</h4>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
 
 
 
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
 
 
