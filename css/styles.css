@@ -69,5 +69,71 @@
     font-weight: 300;
 }
 
+/* Ubicación */
 
+.imagen-texto-ubicacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-ubicacion {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.texto-nosotros {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+}
+
+/* Contacto */
+
+form {
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    border: solid 5px peru;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 10;
+    width: 280px;
+}
+
+.casilla {
+    border: solid 1px #999;
+    padding: 10px;
+    width: 280px;
+}
+
+.enviar {
+    text-align: center;
+}
+
+.formulario-texto-contacto {
+    margin-top: 30px;
+    display: flex;
+    padding-left: 250px;
+    padding-right: 300px;
+}
+
+.texto-contacto {
+    padding-left: 80px;
+    padding-inline-start: 100px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 50px;
+}
 
