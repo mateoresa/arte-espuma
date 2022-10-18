@@ -1,0 +1,27 @@
+.imagen-texto-ubicacion {
+    display: flex;
+    flex-direction: column;
+
+    .titulo {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+        font-weight: 100;
+    }
+
+    .imagen-ubicacion {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .texto-ubicacion {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 30px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 50px;
+    }
+}

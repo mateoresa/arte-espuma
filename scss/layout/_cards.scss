@@ -1,0 +1,41 @@
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    .tarjeta {
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+
+        >img {
+            width: 330px;
+            height: 220px;
+        }
+
+        >h4 {
+            font-weight: 600;
+        }
+
+        >p {
+            padding: 0 1rem;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+
+    .tarjeta:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+
+
+}
