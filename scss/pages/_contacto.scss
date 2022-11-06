@@ -1,16 +1,6 @@
-.formulario-texto-contacto {
-    margin-top: 30px;
-    display: flex;
-    padding-left: 250px;
-    padding-right: 300px;
-
-    .texto-contacto {
-        padding-left: 80px;
-        padding-inline-start: 100px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        text-align: center;
-        font-size: 30px;
-        margin-right: 50px;
-    }
+.texto-contacto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    justify-content: center;
 }

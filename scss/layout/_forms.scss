@@ -1,25 +1,6 @@
-form {
-    background-color: white;
-    border-radius: 3px;
-    padding: 20px;
-    margin: auto;
-    width: 500px;
-    border: solid 5px peru;
-
-    input,
-    textarea {
-        outline: none;
-        border: 10;
-        width: 280px;
-    }
-
-    .casilla {
-        border: solid 1px #999;
-        padding: 10px;
-        width: 280px;
-    }
-
-    .enviar {
-        text-align: center;
-    }
+.texto-contacto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    justify-content: center;
 }
